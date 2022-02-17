@@ -1,0 +1,62 @@
+.container{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 400px;
+    height: 700px;
+    gap: 10px;
+    background-color: rgb(122, 172, 56);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+.containercontainer{
+    width: 100%;
+    height: 100%;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.first, .second, .third, .fourth, .fifth{
+    display:flex;
+    gap: 10px;
+}
+
+button{
+    width: 100px;
+    height: 100px;
+    flex-grow:1;
+    font-size: 40px;
+    border-radius: 30px;
+}
+
+#clr, #zero{
+    flex-grow:2;
+    width: 210px;
+}
+
+#clr{
+    color: orangered;
+}
+
+#display{
+    width: 400px;
+    height: 100px;
+    background-color: white;
+    text-align: right;
+    border-radius: 10px;
+    font-size: 60px;
+}
+
+.footer{
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-end;
+
+}
